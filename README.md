@@ -1,16 +1,67 @@
-## Hi there 👋
-
-<!--
-**batushkovna/batushkovna** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Справочник тегов</title>
+</head>
+<body>
+    <header>
+        <blockquote><p>HTML - язык гипертекстовой разметки.</p></blockquote>
+        <blockquote><p>Файлы .html открываются браузером.</p></blockquote>
+        <h1>Справочник тегов.</h1>
+    </header>
+    <nav>
+        <ul type="none">
+            <li><a href="#text_font">Теги для текста</a></li>
+            <li><a href="#text_style">Теги для выделения текста</a></li>
+            <li><a href="#text_graph">Теги для графических элементов</a></li>
+            <li><a href="#text_build">Теги, задающие структуру страницы</a></li>
+        </ul>
+    </nav>
+    <img src = "images/2620230.png">
+    <section id="text_font">
+        <h2>1. Теги для текста</h2>
+            <ul>
+                <li>Тег p от англ. paragraph абзац</li>
+                <li>h1..h6 от англ. heading заголовки</li>
+                <li>ul/ol - маркированный и нумерованный списки  от англ. unordered/ordered list</li>
+                <li>li - от англ. list item - элемент списка</li>
+                <li>br - тег переноса строки</li>
+                <li>a - от англ. anchor(якорь) ссылка</li>
+                <li>blockquote- создает отступы с обеих сторон текста</li>
+                <a target="blank" href="https://html5book.ru/">Подробнее</a>
+            </ul>
+    </section>
+    <hr size="10">
+    <section id="text_style">
+        <h2>2. Теги для выделения текста</h2>
+            <ul>
+                <li>b - <b>Жирный</b> от bold</li>
+                <li>i - <i>Курсивный</i> от italic</li>
+                <li>del - <del>Перечеркнутый</del> от delete</li>
+            </ul>
+    </section>
+    <hr size="10">
+    <section id="text_graph">
+        <h2>3. Теги для графических элементов</h2>
+            <ul>
+                <li>hr- линия от horizontal rule</li>
+                <li>hr size- устанавливает толщину линии</li>
+            </ul>
+    </section>
+    <hr size="10">
+    <section id="text_build">
+        <h2>4.Теги, задающие структуру страницы</h2>
+            <ul>
+                <li>!DOCTYPE html - не тег, а инструкция для брауззера</li>
+                <li>html - заключает в себе все содержимое веб-страницы</li>
+                <li>head - для хранения служебной информации о странице</li>
+                <li>body - содержимое документа HTML</li>
+                <li>section - задает раздел документа</li>
+                <li>div - универсальный контейнер</li>
+            </ul>
+    </section>
+</body>
+</html>
